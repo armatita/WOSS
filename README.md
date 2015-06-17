@@ -19,8 +19,8 @@ This is an example of a wavelet file:
 ```
  First column is just the step (ignore it but put it there), the second the actual wavelet signal. The wavelet size is actually the number of points until you get to 0 in the wavelet step. In our example is 4.
  
- ## What is a well log file
- A well log file is a file with simple X,Y,Z,AI columned information such as this:
+## What is a well log file
+A well log file is a file with simple X,Y,Z,AI columned information such as this:
  
       326.66667       144.66667         0.25000      9278.43000
       326.66667       144.66667         1.25000      9278.24000
