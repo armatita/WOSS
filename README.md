@@ -8,21 +8,13 @@ It reads a wavelet file (it can be a basic Ricker wavelet), a seismic cube (curr
 This is an example of a wavelet file:
 ```
 -4	-150410
-
 -3	-188835
-
 -2	-109970
-
 -1	 121088
-
  0	 401148
-
  1	 545489
-
  2	 451922
-
  3	 191310
-
  4	-54597.1
 ```
  First column is just the step (ignore it but put it there), the second the actual wavelet signal. The wavelet size is actually the number of points until you get to 0 in the wavelet step. In our example is 4.
@@ -48,8 +40,6 @@ Please notice that the well should come in regular GRID coordinates so x=326 is 
 The seismic file is binary and I could build an analogue in Python using the following code:
 ```Python
 import numpy as np
-
 g = np.zeros((100,100,30),dtype='float32') # So building a 3D matrix of type float32 with number of nodes "x,y,x" of (100,100,30).
-
 np.save('zero_matrix.npy,g)                # I'm just saving a 3D cube with zeros inside it to a binary file. You should actually populate it with your seismic values.
 ```
