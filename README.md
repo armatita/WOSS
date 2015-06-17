@@ -43,3 +43,7 @@ import numpy as np
 g = np.zeros((100,100,30),dtype='float32') # So building a 3D matrix of type float32 with number of nodes "x,y,x" of (100,100,30).
 np.save('zero_matrix.npy,g)                # I'm just saving a 3D cube with zeros inside it to a binary file. You should actually populate it with your seismic values.
 ```
+
+## Case study
+
+![alt tag](https://drive.google.com/file/d/0B3y1f-VLcXFnaXVIeWV1UHlaTzQ/view?usp=sharing)
