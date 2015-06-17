@@ -45,5 +45,9 @@ np.save('zero_matrix.npy,g)                # I'm just saving a 3D cube with zero
 ```
 
 ## Case study
+The following image shows the optimization of a wavelet for a real case study where the initial Ricker started with 8% correlation and the final one with 86% (optimized simulataneosly for two wells). It exceeded the results from the wavelet sent our client.
 
 ![alt tag](https://lh5.googleusercontent.com/Ue4S8wucNa4haoBEcvf2QM4OIIyopcudXGE4G2lnvvfxYiKnMmqOMDKEmZJp4Qt94xWKZKjIkm4e6XQ=w1117-h645)
+
+## General information
+This was a small research project made within CERENA research center in IST. If you need more information contact me or send an email to cerena.cmrp@gmail.com.
