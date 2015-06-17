@@ -46,4 +46,4 @@ np.save('zero_matrix.npy,g)                # I'm just saving a 3D cube with zero
 
 ## Case study
 
-![alt tag](https://drive.google.com/file/d/0B3y1f-VLcXFna2gzQVBYRmtQUmM/view?usp=sharing)
+![alt tag](https://lh5.googleusercontent.com/Ue4S8wucNa4haoBEcvf2QM4OIIyopcudXGE4G2lnvvfxYiKnMmqOMDKEmZJp4Qt94xWKZKjIkm4e6XQ=w1117-h645)
